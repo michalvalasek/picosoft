@@ -1,0 +1,238 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE3IDEwOjM1OjQ4Iixtb2RpZmllZD0iMjAyNS0w
+OC0xOSAxMDozOTo0OCIscmV2aXNpb249MTBdXWx6NABMAQAAeTIAAPMUe1swXT17Ym1wPXB4dQBD
+IBAQBPDwLGZsYWdzPTAscGFuX3gIAMt5PTAsem9vbT04fSwxANQFTA8QkAxOgGoJYAoJAgA-UAoJ
+CwAA-xhgaglwB1YPFnAHVg1gB1YdBkAGAH0ABiAGMDYwBiAGkAYwBpAG8AKCAGdzIAkaCSAGMAgA
+P4AZYIsAHPEJDP8QACEOUQ4hHgEQDhEAIQ4BAAEeAQABDACAEAEeIQ4hABEeACEOAQoAAAgA8wMQ
+DjEQMQ4wDjEAQQ4wHjAxHjARADNBIC4LACA_IBAANSEQQQYATxEgXhCcABxAEA8QIUgAoU4QES4w
+DgAhAEF1ACAxAGsAvwARLjAuIQAuAQ4wjwBUL-DwMQD---------------------------------
+------------------------------8TUG09OH19
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OC0yMCAwOToxMTozMSJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE3IDEwOjM1OjQ4Iixtb2RpZmllZD0iMjAyNS0w
+OC0xOCAxODo1NDoyNCIscmV2aXNpb249NF1dbHo0AGgAAABYEAAA8Ah7e2JtcD11c2VyZGF0YSgi
+aTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9MAgA
+0nk9MCx0aWxlX2g9MTYKABB3CgCAem9vbT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OC0yMCAwOToxMTozMSJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTAwLTMwIDE5OjAwOjIwIixtb2RpZmllZD0iMjAyNS0w
+OC0xOSAxMjo1MjozMCIscmV2aXNpb249NzcwXV1sejQAdgEAAHcIAADfcHh1AAMoAAAEAATw-wEA
+7PBN8QEQBg8zEAEgAQ8lEAHwAAIQAg8gEAEgDyEgATAPG5APEQIgDyBQAQ8WEAHwnwIABkAP1A_v
+D48Peg9fD0oPOg8vDyofHw8aHxUPDwXwuQ-4Cg--D4AP9w0B8AlbAABMAEIJDAUAWwASDloAkQkP
+GQ-aAiACcF4A-C8WUAEP_wYAAQAP78ABCCAPd2APG-CCAgEIQA-0D_kP2Q-JD4QPag9aD0UPPx8v
+HyUPGg8VDw-wCAGgDxjwlHIAAGMAKQEgbwDwBgEwD0CQDxESEA5QAQ-0EAEwDyqQAekAES0gAAAT
+APAHD84gDzaQDxMCIA8OUAEMEAEPDyAOkI4AkBpgDx3wQgIACfkAEbn5APAAZA9aD0oPPw81Dy8P
+JQ8fkAA-CvC6iQAUj-DDDygP--DGLwC1H-8BANzyBfgPQAAPEEAPKP--LwD7Lw77L-BwEwAv_7AK
+AP--XB--AQD-mVD-----IA==
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OC0yMCAwOToxMTozMSJdXQ==
+:: entity.lua
+--[[pod_format="raw",created="2025-08-18 18:50:48",modified="2025-08-18 20:02:45",revision=8]]
+Entity = {}
+Entity.__index = Entity
+
+function Entity:new(x, y, sprite)
+	local o = setmetatable({}, self)
+	o.x = x
+	o.y = y
+	o.sprite = sprite
+	return o
+end
+
+function Entity:move(dx, dy)
+	self.x += dx
+	self.y += dy
+end
+
+function Entity:draw()
+	spr(self.sprite, self.x, self.y)
+end
+:: gate.lua
+--[[pod_format="raw",created="2025-08-19 09:10:44",modified="2025-08-20 09:10:16",revision=22]]
+Gate = {}
+Gate.__index = Gate
+
+local sprite_body = 4
+local sprite_head = 3
+local speed = 1
+local gap_width = 4
+
+function Gate:new()
+  local o = setmetatable({}, self)
+  o.x = 480
+  o.gap_start = (rnd(6) + 2) * 16
+  o.gap_end = o.gap_start + (gap_width * 16)
+  return o
+end
+
+function Gate:update()
+  self.x -= speed
+end
+
+function Gate:draw()
+  for y = 0, 270, 16 do
+    if y < (self.gap_start - 16) then
+    	spr(sprite_body, self.x, y)
+    elseif y < self.gap_start then
+      spr(sprite_head, self.x, y, false, true)
+    elseif y < self.gap_end then
+      spr(0, self.x, y)
+    elseif y < (self.gap_end + 16) then
+      spr(sprite_head, self.x, y)
+    else
+      spr(sprite_body, self.x, y)
+    end 
+  end
+end
+
+:: main.lua
+--[[pod_format="raw",created="2025-08-18 11:09:13",modified="2025-08-20 09:10:34",revision=84]]
+include "player.lua"
+include "gate.lua"
+
+gate_interval = 2
+game_over = false
+score = 0
+
+function _init()
+  player = Player:new()
+  gates = {}
+  add(gates, Gate:new())
+  start_t = time()
+end
+
+function _update()
+  if (game_over == true) return
+  
+  if (btnp(2)) player:jump()
+  
+  update_gates()
+  player:update()
+  detect_collisions()
+  
+  if (time_to_spawn()) add(gates, Gate:new())
+end
+
+function _draw()
+  if game_over == true then
+    game_over_screen()
+  else
+    cls()
+    player:draw()
+    draw_gates()
+    print("SCORE: "..score)
+  end
+end
+
+function update_gates()
+  for _, g in ipairs(gates) do
+    g:update()
+    if (g.x < -16) del(gates, g)
+  end
+end
+
+function draw_gates()
+  for _, g in ipairs(gates) do
+    g:draw()
+  end
+end
+
+function time_to_spawn()
+  return ((time() - start_t) % gate_interval) == 0
+end
+
+function detect_collisions()
+  if player.y >= 254 then 
+    game_over()
+    return
+  end
+  
+  for _, g in ipairs(gates) do
+    if g.x == player.x then
+      if (player.y < g.gap_start) or (player.y > g.gap_end) then 
+        game_over()
+      else
+        score_point()
+      end
+    end
+  end
+end
+
+function game_over()
+  game_over = true
+end
+
+function score_point()
+  score += 1
+  sfx(0)
+end
+
+function game_over_screen()
+  cls(1)
+  print("GAME OVER", 216, 120)
+  print("SCORE: "..score, 216, 130)
+end
+:: player.lua
+--[[pod_format="raw",created="2025-08-18 19:41:22",modified="2025-08-20 09:11:31",revision=58]]
+Player = {}
+Player.__index = Player
+
+local gravity = 2
+local jump_power = 5
+
+function Player:new()
+  local o = setmetatable({}, self)
+  o.x = 100
+  o.y = 100
+  o.dy = 0
+  o.sprite = 1
+  o.jumping = false
+  return o
+end
+
+function Player:jump()
+  if self.jumping == true then return end
+  
+  self.jumping = true
+  self.dy = -jump_power  
+end
+
+function Player:update()
+  local next_y = self.y + gravity + self.dy
+  self.y = mid(next_y, 0, 254)   
+  
+  -- allow jumping when vert acceleration is small
+  if self.dy > -1 then self.jumping = false end
+  -- decrease vert acceleration by little bit
+  if self.dy < 0 then self.dy += 0.1 end 
+end
+
+function Player:draw()
+  if self.jumping then
+    self.sprite = 2
+  else
+    self.sprite = 1
+  end
+  
+  spr(self.sprite, self.x, self.y)
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OC0yMCAwOToxMTozMSIscnVudGltZT0yMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzQiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllci5sdWEjNSIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0iZ2F0ZS5sdWEjMTIiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9j
+YXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHtsb2NhdGlvbj0ibWFwLzAubWFw
+Iix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5zZngiLHdvcmtzcGFjZV9pbmRl
+eD00fX1dXQ==
+:: [eoc]

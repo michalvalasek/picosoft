@@ -1,0 +1,945 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE3IDEwOjM1OjQ4Iixtb2RpZmllZD0iMjAyNS0w
+OS0wMyAyMToxMDo0MiIscmV2aXNpb249MzZdXWx6NADwBQAAwzYAAPMUe1swXT17Ym1wPXB4dQBD
+IBAQBPDwLGZsYWdzPTAscGFuX3gIAMp5PTAsem9vbT04fSwxAPAkcD8TAC5wLgA_cB4ADrAOAB4Q
+HnBOAB5wPhAecA4QDgAOAA5wDjAucB4gLnAuMA5wDgA_EgBCAA4wDjYAIBAeEAAgEB40AC8ALn4A
+HFDwcP8TA3QA8RAQHgAuAC4gPhAeAE4gDiAeAA4QDkAOAC4AHjAuAA4AHgAwAB4gfgAfzuIAIgKi
+AAKuAAC4AALCAALOAADYAADgAADoAAT0ABM_CAECEgEAHAEANgAP4gAfIM8TYwATIMEAUAAOAC4w
+DAAgDkBpAKEeIA4gTgAeED4gHgABBwFP-gPwcGQAHC-w8DEAe-8aCAgEIBJAAhgCMAIYAiACDigC
+EAIYBwwCAA8cAhgRAiACCBUCMAIJChBVACn-DBgOAgACDggHDAgOEhgRGAIAAggVCAIgAgkKAlgA
+Kf8LKA4CEAIHDBgCEAIRGAIPHAACFQgCMAkKAiBVAByFAA8cABIADiBaAIAPDhgNAgACDbMAGA2z
+AB8ysAAd36AXQDcwDxwXDkAe8As8AB8AOgCvMA4XDkAXUB7wA0AAHhJQAgBfHxxQHqA9AB03GlAa
+PwAPUwEd-wegHxlADgkKDjAOCgkOMA8UHg1AHfAD-AIeDzEA-0AA7wLfGBAYAPgIAFggOEAYoD0A
+If4CCBAYEBhQGFAIAAgwCCAIEAhIAA-nAA8PqwH-E-8dAw8TEA4DABMLEwsjWxMLFwEHCwMOCwcR
+BwsOAA4DFwMOEAMAEwADEAMwAwBcAERPAANQA7cART8TEBO3AB7-DgcLEAsHAPcECycLFxsXCwAL
+NwsQBwAXAAcAB1AHwgEeDzEAr-AfEAcgB1AHYAkASWAJGgk6GTAHADonOgAHEBkaZwoJIAkadwoJ
+IBp3GjAahwoJEA8A-xYZIAqHGhkQCSonCicaCRApWgcqQCkKGSpAByApAAkACfABB3AH2ggd8CoA
+CjAKUApgDxkACS4JYB5pDjAJCkkqCR4AChAOKRoHKgkOCSAZKjc5IAoJClcaCTAKCQpnCgkOEDkG
+APARIA4ZGjcaKRAOOQoHCgcKKQ4QHkkaKQ5ADhkKOQqADhmWAH8wCvAGClAKlwAd8BAVIAVQBWAI
+AA8ZLxgPGWAPGD8ZGB4JMA8YHgkKOQ4JvwrwEw0IDikKGQ4YDhAFDilKGQ4NEBUZKhcaCQ4wCAka
+RwoJCA0jAMAJGjcKGQ4NAA0OKRodALEIBRAOCQ4ZOhkOCSAA8AAIWQgODUAdLgkuDXANCQ4DAI8F
+IAXwBgVQBbQAHfAWAvAAAhAPGAgOUAJADjgeCCACIA4YHxkoDQhADhgNGQ0ZDQgOIAoA8RAqGQ0I
+IAgdGQoXCikNDhAYGRonCgkdCBAOCA0JCjcKHgBxDRkaBxoJHSgA-w4aKQ0YIA4ILTkNGA4wDhgd
+CB0YDmBoDoAe8AASUKYAHPAYEAUgFUAFQCUPGBWgTiUQBTAOBVgOBUAFHghJHgUwBRgJCgkaGR4g
+CQAA1AH4AwkYDhUABQ4ICRoXChkIDgUgBQsAMRlKCQkAQA4IaR4HADAYGRgRAP8GQB4oDggeFTAF
+ACUORTAFQAXwAAVgqAAjIhUAqQDwEWAlHhUIFUAVDhUOGQgOFTAOGAkKBQoZFQ4wBQgJOgkVhwDx
+ARUZCgkaBQkOUBUJCgkKKQgcAFEICRoZBaUAoB4IKRgVQCUOCQ4XAHEOBWAFDhUupQBPEDXwC6EA
+HvAKUAXwEAIFkAVANUAVAhUCFRIVMDUPGBIFApQA8BwiHhIlAgUgFRIOCQ4iBQJAFRIeEgUCBVAV
+Eg4SNWAyEAWAEjAFgAIFEAVgbgIfEX4AHvAN8CsFsAWgFQAFAAUQBVAFABUQBQAlcAUAFQAFYAYA
+-wkVABVwBRAFEAUABYA1AAWABfADBaAF8BkIBR4PMQD---------------------------------
+-------------------PUG09OH19
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OS0xOCAxOTozNTowMiJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE3IDEwOjM1OjQ4Iixtb2RpZmllZD0iMjAyNS0w
+OC0yMSAxMDowNDo0NCIscmV2aXNpb249NF1dbHo0AIkAAABYEAAA8Ah7e2JtcD11c2VyZGF0YSgi
+aTE2IiwzMgMALyIwAQD-----F18zMDAwNAQAIC8xMIAANw8BAB4PgAD--------CHzIEACAvMTAB
+AP----8Q8QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9MAgA0nk9MCx0aWxlX2g9MTYKABB3CgCAem9v
+bT0xfX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OS0xOCAxOTozNTowMiJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTAxLTE3IDEwOjM1OjQ5Iixtb2RpZmllZD0iMjAyNS0w
+OS0xOCAxOToyMDoyOSIscmV2aXNpb249MTRdXWx6NAC3AgAAMg0AAP8xcHh1AAMoAAAEAAQPQBAC
+DgABoAEgAqAOAA8QAA3wygECA0APD5AEBQYHMAMHkAgJCgtADJAPDA8NDw4MQAzw-wEA6-EGqgEQ
+Bg8XEAEgAQ8lEAHwABIABg8yDwDxANgQATAPYiAP-WACEAYPMRQA8BjcEAHwnwJgD-8PWg86Dy8P
+JQ8VDArwvwEAD-gKD-8PgA-3Dw0B8AlUABAgMQD9CyAB8AACEAIOEAEgDyEgATAPQPDDDygP--DG
+MQAfDjAA------_NH-8BAKzxP8gPQAABQA9TD1APSw9HD0MPPw85DzcPMw8uDykPJg8jDyIPHg8a
+DxgPFQ8QDw0bQANAGAkKCwgf-wg9Cj0LPQsdCg0KDQr-DAU10h0CPQIA8lYdAg0CDQIPQQ9CDzsf
+OA8nDyIvIX8iLyEe8JkPQAACQA8wDywfHw4PJQ4PHw8bDyEPHA8hDx8PHg8fLxwPGw8ZHxUPEQwP
+Dg8NJgcJCv0Q8gpQ-RAPNQ8sDyUPIg8h-gTA-QrwcLcA8QgjDycPMw85DzgPNA8wDysPJg8hDx0P
+Ga8A9AMTDxAPDgsJAP0c8gT9HP4E-Rw2APEKSg9NDz4PMA8mDxgPEQkGDwT9JpL9Jp79JiEAlwpA
+DyctDyotBAIAIg8nCQBSDQQNBC0CAB8AAgADMw0ADQoALy0OAgADMw0ODQoAEy1wAH8NDyktDyQt
+BgAXHwACAAwfDgIAC48dAA9hIA8tIAYAFx8OAgALERDHAOPNLy-NEw9IzSPNEwjNJgIAEi4CAF3A
+DzwfcwUAYBAfMDAbYAcAFcAFAIEPQAAPEED9sBwBMR8YMNwBsTIPMQ8wDzEPNQ89WALwAEMPRA9F
+D0YPRA9CDzcPNiIA_QQTDzYPOg89-RfwCf0X-gn9F-BwSwAPCgAlH-8BAP-WUP-----d
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OS0xOCAxOTozNTowMiJdXQ==
+:: bullet.lua
+--[[pod_format="raw",created="2025-08-21 19:55:13",modified="2025-08-31 19:14:06",revision=27]]
+bullets = {}
+
+SPRITE_BULLET = 16
+
+function single_shot(x, y)
+  spawn_bullet(x, y, 0, -2)
+end
+
+function triple_shot(x, y)
+  spawn_bullet(x, y, -0.3, -2)
+  spawn_bullet(x, y, 0, -2)
+  spawn_bullet(x, y, 0.3, -2)
+end
+
+function spawn_bullet(x, y, spd_x, spd_y)
+  local bullet = { 
+    x = x, 
+    y = y, 
+    sprite = SPRITE_BULLET, 
+    spd_x = spd_x, 
+    spd_y = spd_y
+   }
+  add(bullets, bullet)
+end
+
+function update_bullets()
+  for b in all(bullets) do
+    b.x += b.spd_x
+    b.y += b.spd_y
+    
+    -- removal
+    if (b.y < frame.y1) del(bullets, b)
+  end
+end
+
+function draw_bullets()
+  for b in all(bullets) do
+    spr(b.sprite, b.x, b.y)
+  end
+end
+:: collision.lua
+--[[pod_format="raw",created="2025-08-31 18:25:46",modified="2025-09-10 21:32:08",revision=16]]
+function detect_collisions()
+  --  Enemies
+  for e in all(enemies) do
+    -- x Bullets
+    for b in all(bullets) do
+      if is_colliding(b, e) then
+        del(bullets, b)
+        spawn_shockwave(b.x+4, b.y+4, 5)
+        enemy_hit(e)
+      end
+    end
+    
+    -- x Player
+    if is_colliding(player, e) then
+      if player.invuln == 0 then
+	     player_hit()
+	     del(enemies, e)
+	   end
+    end
+  end
+end
+
+-- a and b are tables with properties x and y,
+-- representing sprites 8x8 pixels
+function is_colliding(a, b)
+  if (a.y > b.y + 7) return false 
+  if (a.y + 7 < b.y) return false
+  if (a.x > b.x + 7) return false
+  if (a.x + 7 < b.x) return false 
+ 
+  return true
+end
+:: enemy.lua
+--[[pod_format="raw",created="2025-08-27 21:24:53",modified="2025-09-16 22:32:26",revision=175]]
+enemies = {}
+
+wave = 1
+wave_stack = {}
+
+SFX_ENEMY_HIT = 3
+SFX_ENEMY_DEATH = 1
+ENEMY_ANIM = {32, 33, 32, 34}
+
+ENEMY_FLASH_SPR = 35
+
+VARIANTS = {
+  {colors={11,3,19}},
+  {colors={28,12,16}}
+}
+
+--WAVES = {3, 5, 8}
+WAVES = {1, 1, 1}
+
+function init_wave(n)
+  if n > #WAVES then
+    init_scn_win()
+    return
+  end
+  
+  wave = n
+  waveintro_timeout = 3 * 60 -- 3 seconds
+
+  for i=1,WAVES[wave] do
+    local e = build_enemy("rnd", -10)
+    add(wave_stack, e)
+  end
+end
+
+-- runs every _update
+function spawn_enemies()
+  if (waveintro_timeout > 0) return
+  
+  -- spawn new enemy every 5 seconds
+  if time() % 2 == 0 then
+    local e = deli(wave_stack) -- take an enemy from stack
+  
+    if (e) add(enemies, e) -- and put it into game
+  end
+end
+
+function build_enemy(x, y)
+  if x == "rnd" then
+    x = frame.x1 + rnd(frame.size) 
+  end
+
+  local enemy = {
+  	 x = x,
+  	 y = y,
+  	 hp = 3,
+  	 frm = 1, -- animation frame
+  	 flash = 0, -- flashing after hit
+  	 points = 1,
+  	 variant = ceil(rnd(#VARIANTS))
+  }
+  
+  return enemy
+end
+
+function update_enemies()
+  for e in all(enemies) do
+    -- movement
+    e.y += 0.5
+    if (e.x < player.x) e.x += 0.3
+    if (e.x > player.x) e.x -= 0.3
+    --if (e.x < frame.x1) e.x = frame.x1 + 1
+    --if (e.x > frame.x2 - 8) e.x = frame.x2 - 9  
+ 
+    -- animation
+    e.frm += 0.1
+    if (e.frm >= #ENEMY_ANIM+1) e.frm = 1
+    
+    -- flashing after hit
+    if (e.flash > 0) e.flash -= 1
+  
+    -- removal
+    if (e.y > frame.y2 - 7) del(enemies, e)
+  end
+end
+
+function draw_enemies()
+  for e in all(enemies) do
+    if e.flash > 0 then
+      spr(ENEMY_FLASH_SPR, e.x, e.y)
+    else
+      if e.variant > 1 then
+        local var = VARIANTS[e.variant]
+        for i=1,#var.colors do
+          pal(VARIANTS[1].colors[i], var.colors[i])
+        end
+      end 
+      spr(ENEMY_ANIM[flr(e.frm)], e.x, e.y)
+      pal()
+    end
+  end
+  
+  print("enemies: "..#enemies)
+  print("wave: "..wave)
+  print("ws: "..#wave_stack)
+end
+
+function enemy_hit(e)
+  sfx(SFX_ENEMY_HIT)
+  e.flash = 4 -- will flash white for 4 frames
+  e.hp -= 1 
+  emit_particles(e.x+4, e.y+5, 5, 0) -- 5 tiny particles 
+  
+  if (e.hp == 0) enemy_death(e)
+end
+
+function enemy_death(e)
+  del(enemies, e)
+  spawn_shockwave(e.x+4, e.y+4, 20, 2)
+  spawn_explosion(e.x, e.y)
+  --emit_particles(e.x+4, e.y+5, 20)
+  particles_explosion(e.x+4, e.y+4)
+  sfx(SFX_ENEMY_DEATH)
+  score += e.points
+  
+  if #enemies == 0 and #wave_stack == 0 then
+    init_wave(wave + 1) -- next wave
+    return
+  end
+end
+:: explosion.lua
+--[[pod_format="raw",created="2025-09-01 20:12:32",modified="2025-09-01 21:11:10",revision=40]]
+explosions = {}
+
+EXPLOSION_ANIM = {40,41,42,43,44,45,46,47}
+ANIM_FRAME_DURATION = 4 -- each animation frame will be displayed for 4 rend. frames
+
+function spawn_explosion(x, y)
+  local expl = {
+    x = x,
+    y = y,
+    frm = 1, -- animation sprite
+  }
+  add(explosions, expl)
+end
+
+function update_explosions()
+  for e in all(explosions) do
+    -- animation
+    e.frm += 0.25  
+    if (e.frm >= #EXPLOSION_ANIM) del(explosions, e) 
+  end
+end
+
+function draw_explosions()
+  for e in all(explosions) do
+    spr(EXPLOSION_ANIM[flr(e.frm)], e.x-4, e.y-4)
+  end
+end
+:: frame.lua
+--[[pod_format="raw",created="2025-08-21 13:55:42",modified="2025-08-24 16:12:57",revision=8]]
+frame = {
+  size = 128,
+  col = 5,
+  x1 = 0, y1 = 0, x2 = 0, y2 = 0
+}
+
+function init_frame()
+  frame.x1 = (SCREEN_WIDTH - frame.size) / 2
+  frame.y1 = (SCREEN_HEIGHT - frame.size) / 2
+  frame.x2 = frame.x1 + frame.size
+  frame.y2 = frame.y1 + frame.size
+end
+
+function draw_frame()
+  rect(frame.x1-1, frame.y1-1, frame.x2+1, frame.y2+1, frame.col)
+end 
+:: game.lua
+--[[pod_format="raw",created="2025-08-25 19:57:12",modified="2025-09-18 19:28:32",revision=125]]
+include "player.lua"
+include "frame.lua"
+include "bullet.lua"
+include "starfield.lua"
+include "enemy.lua"
+include "collision.lua"
+include "explosion.lua"
+include "particle.lua"
+include "shockwave.lua"
+include "waveintro.lua"
+
+MAX_LIVES = 3
+
+lives = MAX_LIVES
+score = 0
+wave = 1
+
+function init_scn_game()
+  scene = SCN_GAME 
+
+  init_frame()
+  init_starfield()
+  init_player()
+  
+  init_wave(1)
+  
+  lives = MAX_LIVES
+  score = 0
+  
+  music(-1, 2000) -- music off, fades out over 2 sec
+end
+
+function update_scn_game()
+  update_player()
+  update_enemies()
+  update_explosions()
+  update_bullets()
+  update_particles()
+  update_shockwaves()
+  update_starfield()
+  update_waveintro() 
+ 
+  detect_collisions()
+  
+  spawn_enemies()
+end
+
+function draw_scn_game()
+  cls()
+  draw_starfield()
+  draw_enemies()
+  draw_bullets()
+  draw_frame()
+  draw_player()
+  draw_explosions()
+  draw_shockwaves()
+  draw_particles()
+  draw_score()
+  draw_lives()
+  draw_waveintro()
+end
+
+function draw_score()
+  print("SCORE: "..score, 4, 4, 10)
+end
+
+function draw_lives()
+  for i=1, MAX_LIVES do
+    x = frame.x2 + 6 + (i * 10)
+    if i <= lives then
+      spr(24, x, 4) -- full heart
+    else
+      spr(25, x, 4) -- empty heart 
+    end
+  end
+end
+
+:: gameover.lua
+--[[pod_format="raw",created="2025-08-25 20:51:11",modified="2025-08-25 21:03:46",revision=20]]
+function init_scn_gameover()
+  scene = SCN_GAMEOVER
+end
+
+function update_scn_gameover()
+  if btnp(4) or btnp(5) then
+    init_scn_start()
+  end
+end
+
+function draw_scn_gameover()
+  cls(0)
+  print("GAME OVER", 92, 50, 24)
+  print("Your score: "..score, 82, 70, 6)
+  print("Press any key", 82, 90, blinking_text_color(0, 1))
+end
+:: label.qoi
+b64$cW9pZgAAAeAAAAEOBAH9-f39-f39-f39-f39-f39-f39-f39-f39-f39-f39-e3_X1dP-f39
+-cz_AAAA-f393i79-f39zDX9-f3eLsA1-f39-cguwDX9-f3eLsA1-f39-cguwDX99v7-7CfCNcQf
+wjXEH8I1wh-ENcIfxjXWH8I12C7ANf397v7-8ejANf3AP8A10C7ANdz_-wBNwjXCDcI1xg3CNcIN
+wjXGDcI1wg3CNeIfwjXEH8I1xB-CNcIfxDXCH8Y11h-CNdguwDX9-e4-wDX9wD-ANdAuwDXcDcI1
+wg3CNcYNwjXCDcI1xg3CNcINwjXgH8A1wh-ANcAfwDXCH8A1wB-ANcIfwDXAH8A1wh-ANcAfwDXa
+H8A1wh-ANdYuwDX9-f39yC7ANdoNzjXCDc41wg3ANcINwjXCDcA13h-ANcIfwDXAH8A1wh-ANcAf
+wDXCH8A1wB-ANcIfwDXAH8A12h-ANcIfwDXWLsA1-f39-cguwDXaDc41wg3ONcINwDXCDcI1wg3A
+Nd4fwDXGH8A1xh-ANcIfwDXAH8A1wh-ANcAfwDXaH8A1wB-CNdYuwDX9-f39yC7ANdoNzjXCDc41
+wg3ANcoNwDXeH8A1xh-ANcYfwDXCH8A1wB-ANcIfwDXAH8A12h-ANcAfwjXWLsA1-f39-cguwDXa
+Dc41wg3ONcINwDXKDcA14B-CNcIfwDXGH8A1wh-ANcAfxDXCH8Q1xB-ANc4fwjXAH8A11i7ANf39
+-f3ILsA12g3ONcINzjXCDcA1yg3ANeAfwjXCH8A1xh-ANcIfwDXAH8Q1wh-ENcQfwDXOH8I1wB-A
+NdYuwDX9-f39yC7ANdoNzjXCDc41wg3ANcoNwDXkH8A1wB-ANcYfwDXCH8A1wB-ANcIfwDXAH8A1
+2h-ANcIfwDXWLsA1-f39-cguwDXcDco1xg3KNcYNwDXGDcA15h-ANcAfwDXGH8A1wh-ANcAfwDXC
+H8A1wB-ANdofwDXCH8A11i7ANf39-f3ILsA13A3KNcYNyjXGDcA1xg3ANeAfwDXCH8A1wB-ANcIf
+wDXAH8A1wh-ANcAfwDXCH8A1wB-ANcgfwDXOH8A1wh-ANdYuwDX9-f39yC7ANd4NxjXKDcY1yg3A
+NcINwDXiH8A1wh-ANcAfwDXCH8A1wB-ANcIfwDXAH8A1wh-ANcAfwDXIH8A1zh-ANcIfwDXWLsA1
+-f39-cguwDXeDcY1yg3GNcoNwDXCDcA15B-CNcQfwjXEH8I1wh-ANcIfwDXAH8Y11h-CNdguwDX9
+-f39yC7ANeANwjXODcI1zg3CNeYfwjXEH8I1xB-CNcIfwDXCH8A1wB-GNdYfwjXYLsA1-f39-cgu
+wDXgDcI1zg3CNc4NwjX9-c4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9zD-ANf39
+9i7ANf39-d4uwDX9zD-ANf399i7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4u
+wDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7A
+Nf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9zj-ANf399C7ANf39-d4uwDX9
+zj-ANf399C7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-eA-wDX94i7ANf39-d4uwDX9-eA-wDX94i7ANf39-d4uwDX9
+-f39wD-ANcQuwDX9-f3eLsA1-f39-cA-wDXELsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39
+-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANeQ-wDX9-f3eLsA1-f39
+3i7ANeQ-wDX9-f3eLsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39
+-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3EP8A1wC7ANf39-d4uwDX9-f39xD-ANcAu
+wDX9-f3eLsA1-f39-cguwDX9-f3eLsA1-f39-cguwDX9-f3eLsA1-f39xD-ANf3ALsA1-f393i7A
+Nf39-cQ-wDX9wC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7A
+Nf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39
+yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9
+-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4u
+wDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7A
+Nf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39
+yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9
+-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4u
+wDX9-f39yC7ANf39-d4uwDX90j-ANf398C7ANf39-d4uwDX90j-ANf398C7ANf39-d4uwDX9-f39
+yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9
+-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4u
+wDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7A
+Nf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDXqP8A1-f392C7ANf39-d4uwDXq
+P8A1-f392C7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-f3CP8A1-cIuwDX9-f3eLsA1-f39wj-ANf3CLsA1-f393i7A
+Nf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f39
+3i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf397D-ANf3WLsA1-f393i7ANf397D-ANf3WLsA1-f393i7ANf39-f3ILsA1-f39
+3i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39
+-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7A
+Nf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f39
+3i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf3aP8A1-f3oLsA1-f393i7ANf3a
+P8A1-f3oLsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f39
+3i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39
+-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-dQ-wDXuLsA1-f393i7ANf39-dQ-wDXuLsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf3oP8A1-f3aLsA1-f393i7A
+Nf3oP8A1-f3aLsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3I
+LsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39
+-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7A
+Nf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f39
+3i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1
+-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-eY-wDXcLsA1-f393i7ANf39
+-eY-wDXcLsA1-f393i7ANf39-f3ILsA1-f393i7ANf39-f3ILsA1-f393i7ANf39wP5_JVPCNf39
+wi7ANf39-d4uwDX9-cAtwjX9-cIuwDX9-f3eLsA1-fwtwA3CLcA1-f3ALsA1-f393i7ANf38LcAN
+wi3ANf39wC7ANf39-d4uwDX9-C3ADcItwDXUP8A1-eYuwDX9-f3eLsA1-fwtwA3CLcA11D-ANf3m
+LsA1-f393i7ANf36LcD_-3eowA3CHcAtwDX9-C7ANf39-d4uwDX9_i3AHcANwh3ALcA1-fwuwDX9
+-f3eLsA1-fgtwB3ADcA-wP4prf-ADcAdwC3ANf36LsA1-f393i7ANf34LcAdwA3AP8AKwA3AHcAt
+wDX9_i7ANf39-d4uwDX9_C3ADcL_HStTwg3CLcA1-dY-wDXgLsA1-f393i7ANf34LcANwijCDcIt
+wDX91j-ANeAuwDX9-f3eLsA1-fotwA3ALsINwC3ANf38LsA1-f393i7ANf36LcANwC7CDcAtwDX9
+-C7ANf39-d4uwDX9-C3A-v_jAMAfwC3ANf39wC7ANf39-d4uwDX9-C3AIcAfwC3ANf39wC7ANf39
+-d4uwDX9-f39yC7ANf39-d4uwDX9-f39yC7ANf39-d7_LysnwDX95P5-eHTANdY2wjXANsA1-fwq
+wDX9-f3eKsA1-eQ2wDXWNsI1wDbANf38KsA1-f393irANf39wDbCNf39wirANf39-d4qwDX9-cA2
+wjX9-cIqwDX9-dY-wDXoP8A1zD-CNcQqwD-ANcQ-wjXANsA1zD-ANcQ-wjXCP8Y1zj-ANc4-wjXE
+P8A12DbCNfY-wDXSP8A16D-ANcIqwDXOP8A1yD-ANeI-wDXcP8A17j-ANeg-wDXMP8I1xCrAP8A1
+xD-CNcA2wDXMP8A1xD-CNcI-xjXOP8A1zj-CNcQ-wDXYNsI19j-ANdI-wDXoP8A1wirANc4-wDXI
+P8A14j-ANdw-wDXuP8A16D-ANco-wDXCP8A1wj-CNcI-wDXCP8A1zD-CNcI-wDXCP8A1wD-ANdI-
+wDXOP8A1wj-ANcQ-wDXWNsI19j-ANdI-wDXcP8A1yD-ANcIqwDXOP8A1yD-ANdw-wDXCP8A13D-A
+Ne4-wDXoP8A1yj-ANcI-wDXCP8I1wj-ANcI-wDXMP8I1wj-ANcI-wDXAP8A10j-ANc4-wDXCP8A1
+xD-ANdY2wjX2P8A10j-ANdw-wDXIP8A1wirANc4-wDXIP8A13D-ANcI-wDXcP8A10D-ENcI-wjXC
+P8Q1wj-GNcA-wDXCP8A1wD-ANcA-wjXCP8I1xD-ENdA-wDXAP8AqwD-ANcI-wDXAP8I1wD-ANcI-
+wDXEP8A1yD-ANcA-wDXSP8A1xD-ANcI-wDXGP8A1xD-ANc4-xDXA-jJve8A-xDXAP8A1wD-CNcI-
+wjXEP8I1wj-ENcQ-xDXAP8Q1xD-CNcI-xjXYP8A1xD-ENcI-wjXEP8Q1wD-ANcI-wDXAP8Y1wj-C
+NcI-xDXGP8A1wj-ENcQ-wjXEP8Q1wD-GNcw-xDXCP8I1wj-ENcI-xjXAP8A1wj-ANcA-wDXAP8I1
+wj-CNcQ-xDXQP8A1wD-AKsA-wDXCP8A1wD-CNcA-wDXCP8A1xD-ANcg-wDXAP8A10j-ANcQ-wDXC
+P8A1xj-ANcQ-wDXOP8Q1wBPAP8Q1wD-ANcA-wjXCP8I1xD-CNcI-xDXEP8Q1wD-ENcQ-wjXCP8Y1
+2D-ANcQ-xDXCP8I1xD-ENcA-wDXCP8A1wD-GNcI-wjXCP8Q1xj-ANcI-xDXEP8I1xD-ENcA-xjXK
+P8A1zD-ANcA-wDXCP8A1wj-ANcQ-wDXCP8A1wD-CNcQ-wDXCP8A1wD-ANcI-wDXOP8A1wj-AKsA-
+wDXCP8I1wD-ANcA-wDXCP8A1xD-ANcQ-wjXCP8Q1zj-ANcQ-wDXCP8A1xD-ANcY-wDXMP8A1xj-A
+E8A1xD-CNcQ-wDXCP8A1wD-ANcI-wDXAP8A1wj-ANcA-wDXGP8A1wj-ANcA-wDXCP8A1wj-ANcY-
+wDXQP8A1xD-ANcI-wDXAP8AqwDXAP8A1wD-ANcY-wDXAP8A1xD-ANcQ-wDXCP8A1wD-ANcI-wDXC
+P8A1xD-ANcI-wDXAP8A1wj-ANcA-wDXIP8A1zj-ANcw-wDXAP8A1wj-ANcI-wDXEP8A1wj-ANcA-
+wjXEP8A1wj-ANcA-wDXCP8A1zj-ANcI-wCrAP8A1wj-CNcA-wDXAP8A1wj-ANcQ-wDXEP8I1wj-E
+Nc4-wDXEP8A1wj-ANcQ-wDXGP8A1zD-ANcY-wBPANcQ-wjXEP8A1wj-ANcA-wDXCP8A1wD-ANcI-
+wDXAP8A1xj-ANcI-wDXAP8A1wj-ANcI-wDXGP8A10D-ANcQ-wDXCP8A1wD-AKsA1wD-ANcA-wDXG
+P8A1wD-ANcQ-wDXEP8A1wj-ANcA-wDXCP8A1wj-ANcQ-wDXCP8A1wD-ANcI-wDXAP8A1yD-ANc4-
+wDXIP8Q1wD-ANcI-wDXCP8A1xD-ANcI-wDXAP8A1xj-GNcA-wDXCP8A1zD-ANcQ-xjXAP8A1wj-A
+NcI-wjXGP8A1yD-ANcY-wDXMP8A1xj-CNcQ-wDXIP8A1zj-CNcI-wDXGP8A1xj-GNcA-xjXAP8A1
+wj-ANcI-wjXCP8A1wj-ANcA-wDXCP8A1wj-ANdo-wDXEP8A1wj-ANcA-xjXCP8I1wj-CNcY-wDXE
+P8A1wj-ANcA-wDXCP8A1wj-ANcQ-wDXCP8A1wD-ANcI-wDXCP8I1xD-ANc4-wDXIP8Q1wD-ANcI-
+wDXCP8A1xD-ANcI-wDXAP8A1xj-GNcA-wDXCP8A1zD-ANcQ-xjXAP8A1wj-ANcI-wjXGP8A1yD-A
+NcY-wDXMP8A1xj-CNcQ-wDXIP8A1zj-CNcI-wDXGP8A1xj-GNcA-xjXAP8A1wj-ANcI-wjXCP8A1
+wj-ANcA-wDXCP8A1wj-ANdo-wDXEP8A1wj-ANcA-xjXCP8I1wj-CNcY-wDXEP8A1wj-ANcA-wDXC
+P8A1wj-ANcQ-wDXCP8A1wD-ANcI-wDXCP8I1xD-ANc4-wDXGP8A1wj-ANcA-xDXEP8A1xD-ANcI-
+wDXAP8A1xj-ANcY-wDXCP8A1yj-ANcgqwD-ANcI-wDXCP8A1wD-ANcI-wDXEP8A1wj-ANcI-wDXG
+P8A1zD-ANcQ-wDXCP8A1wD-ANco-wDXSP8A1wD-ANcY-wDXGP8A1xj-ANcY-wDXCP8A1xj-ANcA-
+wDXCP8A1wD-ANcI-wDXCP8A1xj-ANc4-wDXGP8A1wj-ANcA-wCrANco-wDXAP8A1wD-ANcQ-wDXE
+P8A1wj-ANcA-xDXCP8A1xj-ANcI-wDXAP8A1wj-ANcY-wDXCP8A1xD-ANcY-wDXGP8A1wj-ANcA-
+xDXEP8A1xD-ANcI-wDXAP8A1xj-ANcY-wDXCP8A1yj-ANcgqwD-ANcI-wDXCP8A1wD-ANcI-wDXE
+P8A1wj-ANcI-wDXGP8A1zD-ANcQ-wDXCP8A1wD-ANco-wDXSP8A1wD-ANcY-wDXGP8A1xj-ANcY-
+wDXCP8A1xj-ANcA-wDXCP8A1wD-ANcI-wDXCP8A1xj-ANc4-wDXGP8A1wj-ANcA-wCrANco-wDXA
+P8A1wD-ANcQ-wDXEP8A1wj-ANcA-xDXCP8A1xj-ANcI-wDXAP8A1wj-ANcY-wDXCP8A1xD-ANcg-
+xDXCP8Q1wD-ANco-wjXCP8Q1wD-ANcg-xDXCP8Q1yj-GNcIqwD-AKsQ-wirCP8Aqwj-AKsI-xCrC
+P8Iqwj-EKs4-wCrEP8Aqwj-AKsA-xirEP8AqzD-EKsQ-xCrAP8AqyD-EKsI-xCrAP8Aqwj-AKsA-
+xCrCP8Aqwj-AKsI-wirGP8Iq1D-AKsg-xCrCP8Q1wD-ENcI-wDXCP8A1xD-CNcI-wjXCP8A1xj-A
+NcY-wDXCP8A1wj-CNcI-xDXGP8I1wD-ANcg-xDXCP8Q1wD-ANco-wjXCP8Q1wD-ANcg-xDXCP8Q1
+yj-GNcIqwD-AKsQ-wirCP8Aqwj-AKsI-xCrCP8Iqwj-EKs4-wCrEP8Aqwj-AKsA-xirEP8AqzD-E
+KsQ-xCrAP8AqyD-EKsI-xCrAP8Aqwj-AKsA-xCrCP8Aqwj-AKsI-wirGP8Iq1D-AKsg-xCrCP8Q1
+wD-ENcI-wDXCP8A1xD-CNcI-wjXCP8A1xj-ANcY-wDXCP8A1wj-CNcI-xDXGP8I1wD-ANdo-wDX9
+-do-wDXYP8A1-f390j-ANf3YP8A1-f3aP8A12D-ANf39-dI-wDX9-f39-f39-f39-f39-f392gAA
+AAAAAAAB
+:: main.lua
+--[[pod_format="raw",created="2025-08-21 08:44:54",modified="2025-09-18 19:27:32",revision=184]]
+include "game.lua"
+include "start.lua"
+include "gameover.lua"
+include "win.lua"
+include "utils.lua"
+
+SCREEN_WIDTH = 240
+SCREEN_HEIGHT = 135
+
+SCN_GAME = "game"
+SCN_START = "start"
+SCN_GAMEOVER = "gameover"
+SCN_WIN = "win"
+
+scene = nil
+
+function _init()
+  vid(3) -- 240x135
+  
+  init_scn_start()
+  --init_scn_gameover()
+end
+
+function _update()
+  if scene == SCN_START then
+    update_scn_start()
+  elseif scene == SCN_GAME then
+    update_scn_game()
+  elseif scene == SCN_GAMEOVER then
+    update_scn_gameover()
+  elseif scene == SCN_WIN then
+    update_scn_win()
+  end
+end
+
+function	_draw()
+  if scene == SCN_START then
+    draw_scn_start()
+  elseif scene == SCN_GAME then
+    draw_scn_game()
+  elseif scene == SCN_GAMEOVER then
+    draw_scn_gameover()
+  elseif scene == SCN_WIN then
+    draw_scn_win()
+  end
+end
+:: particle.lua
+--[[pod_format="raw",created="2025-09-03 19:39:57",modified="2025-09-10 21:01:40",revision=80]]
+particles = {}
+
+p_variants = {
+  red = {7, 10, 9, 25, 5},
+  blue = {7, 28, 12, 16, 1},
+}
+
+function particles_explosion(x, y, var)
+  spawn_particle(x, y, 10, var, 0, 0, 0) -- big central stationary short-lived particle
+  emit_particles(x, y, 20, nil, var) -- smaller particles flying outwards
+end
+
+function emit_particles(x, y, cnt, size, var)
+  for i=1,cnt do
+    spawn_particle(x, y, size, var)
+  end
+end
+
+function spawn_particle(x, y, size, var, sx, sy, maxage)
+  var = var or "red"
+  local part = {
+    x = x,
+    y = y,
+    sx = sx or ((rnd() - 0.5) * 4), -- -1.5 to 1.5
+    sy = sy or ((rnd() - 0.5) * 4),
+    size = size or rnd(2), -- 0=dots, 1=pluses, 2+=circles
+    var = var, -- color variant
+    col = p_variants[var][1],
+    age = rnd(5),
+    maxage = maxage or (rnd(20) + 40)
+  }
+  
+  add(particles, part)
+end
+
+function update_particles()
+  for p in all(particles) do
+    p.x += p.sx
+    p.y += p.sy
+    p.age += 1
+    p.sx *= 0.98
+    p.sy *= 0.98
+    p.col = p_color(p.age, p_variants[p.var])
+    
+    if p.age > p.maxage then
+      p.size -= 0.5
+      if (p.size < 0) del(particles, p)
+    end 
+  end
+end
+
+function p_color(age, var)
+  local col = var[1]
+  
+  if (age > 20) col = var[2]
+  if (age > 30) col = var[3]
+  if (age > 40) col = var[4]
+  if (age > 50) col = var[5]
+  
+  return col
+end
+
+function draw_particles()
+  for p in all(particles) do
+    circfill(p.x, p.y, p.size, p.col)
+  end
+end
+:: player.lua
+--[[pod_format="raw",created="2025-08-21 13:54:48",modified="2025-09-10 21:15:43",revision=179]]
+player = { 
+  x = 0, 
+  y = 0, 
+  speed = 1,
+  sprite = SHIP_NEUTRAL, 
+  flame_anim = {},
+  invuln = 0 -- invulnerability countdown (after being hit)
+}
+
+SHIP_NEUTRAL = 9
+SHIP_LEFT = 10
+SHIP_RIGHT = 8
+SHIP_BACK = 11
+
+SFX_PLAYER_HIT = 2
+
+FLAME_ANIM_1 = {12,13,14,13}
+FLAME_ANIM_2 = {13,14,15,14} --turbo
+
+PLAYER_INVULN_FRAMES = 120 -- 2 seconds
+
+SHOOT_CD = 15 -- shooting cooldown (frames between shots)
+rem_shoot_cd = 0 -- current remaining shooting cooldown
+
+function init_player()
+  -- initial position
+  player.x = frame.x1 + (frame.size / 2) - 4
+  player.y = frame.y2 - 16
+  
+  -- Movement boundaries
+  L_BOUND = frame.x1 + 1 + player.speed
+  R_BOUND = frame.x2 - 9 - player.speed
+  T_BOUND = frame.y1 + 6 + player.speed
+  B_BOUND = frame.y2 - 12 - player.speed
+  
+  player.flame_anim = FLAME_ANIM_1
+  flame_frm = 1
+  muzzle_flash = 0
+end
+
+function update_player()
+  player.sprite = SHIP_NEUTRAL
+  player.flame_anim = FLAME_ANIM_1
+
+  -- movement (ADWS)
+  if btn(8) and player.x > L_BOUND then -- A:left
+    player.x -= player.speed
+    player.sprite = SHIP_LEFT
+  end
+  if btn(9) and player.x < R_BOUND then -- D:right
+    player.x += player.speed
+    player.sprite = SHIP_RIGHT
+  end
+  if btn(10) and player.y > T_BOUND then -- W:up
+    player.y -= player.speed
+    player.sprite = SHIP_NEUTRAL
+    player.flame_anim = FLAME_ANIM_2
+  end
+  if btn(11) and player.y < B_BOUND then -- S:bottom
+    player.y += player.speed
+    player.sprite = SHIP_BACK
+  end
+  
+  if btn(4) or btn(5) or btn(12) then -- Z or X or F
+    shoot()
+  end
+  
+  -- Animate engine flame
+  flame_frm += 1
+  if (flame_frm > #player.flame_anim) flame_frm = 1
+  
+  -- Animate muzzle flash
+  if (muzzle_flash > 0) muzzle_flash -= 1
+
+  -- Invulnerability countdown
+  if (player.invuln > 0) player.invuln -= 1
+  
+  -- Decrease remaining shooting cooldown
+  if (rem_shoot_cd > 0) rem_shoot_cd -= 1 
+end
+
+function shoot()
+  if (rem_shoot_cd > 0) return
+  
+  single_shot(player.x, player.y-3)
+  --triple_shot(player.x, player.y-3)
+  muzzle_flash = 5
+  sfx(0)
+  rem_shoot_cd = SHOOT_CD -- set cooldown 
+end
+
+function draw_player()
+  -- ship: blinks if invuln is ON 
+  if player.invuln == 0 or sin((t()*8)%1) > 0  then
+    spr(player.sprite, player.x, player.y)
+  end
+  
+  -- ship engine flame
+  spr(player.flame_anim[flame_frm], player.x, player.y+8)
+  -- muzzle flash
+  if muzzle_flash > 0 then
+    circfill(player.x+4, player.y-1, muzzle_flash, 7)
+  end
+end
+
+function player_hit()
+  sfx(SFX_PLAYER_HIT)
+  emit_particles(player.x+4, player.y+3, 10, nil, "blue")
+  lives -= 1
+  if (lives < 1) init_scn_gameover()
+  player.invuln = PLAYER_INVULN_FRAMES
+end
+:: shockwave.lua
+--[[pod_format="raw",created="2025-09-10 21:21:40",modified="2025-09-10 21:39:07",revision=11]]
+shockwaves = {}
+
+function spawn_shockwave(x, y, max_r, spd)
+  local sw = {
+    x = x,
+    y = y,
+    r = 0, -- current radius,
+    max_r = max_r,
+    c = 7, -- color,
+    spd = spd or 1 -- expansion speed
+  }
+  add(shockwaves, sw)
+end
+
+function update_shockwaves()
+  for sw in all(shockwaves) do
+    sw.r += sw.spd
+    if (sw.r >= sw.max_r) del(shockwaves, sw)
+  end
+end
+
+function draw_shockwaves()
+  for sw in all(shockwaves) do
+    circ(sw.x, sw.y, sw.r, sw.c)
+  end
+end
+:: starfield.lua
+--[[pod_format="raw",created="2025-08-23 18:50:33",modified="2025-08-27 20:44:03",revision=91]]
+stars = {}
+starfield_offset = 0
+starfield_speed = 1
+
+function init_starfield()
+  -- generate stars
+  for i = 1, 100 do
+    local star = {}
+    star.x = flr(rnd(frame.size)) + frame.x1
+    star.y = flr(rnd(frame.size)) + frame.y1
+    star.spd = rnd(0.7)+0.3
+
+    -- set color of the star:
+    -- the slower the star moves, the farther it is, the dimmer it is
+    star.col = 1
+    if (star.spd > 0.5) star.col = 13
+    if (star.spd > 0.75) star.col = 6 
+ 
+    add(stars, star)
+  end
+end
+
+function update_starfield()
+  -- animate
+  for s in all(stars) do
+    s.y += s.spd
+    -- return star on the top when it reaches the bottom
+    if (s.y > frame.y2) s.y = frame.y1
+  end
+end
+
+function draw_starfield()
+  for s in all(stars) do
+    pset(s.x, s.y, s.col)
+    
+    -- the brightest stars will have tails
+    if s.col == 6 then
+      pset(s.x, s.y-1, 16)
+      pset(s.x, s.y-2, 1)
+      pset(s.x, s.y-3, 1)
+    end
+  end
+end
+
+--function sort_starfield()
+--  for i = 2, #stars do
+--    local current = stars[i]
+--    local j = i - 1
+--    
+--    while j >= 1 and stars[j][2] > current[2] do
+--      stars[j + 1] = stars[j]
+--      j = j - 1
+--    end
+--    
+--    stars[j + 1] = current
+--  end
+--end
+:: start.lua
+--[[pod_format="raw",created="2025-08-25 20:08:57",modified="2025-09-18 19:27:25",revision=45]]
+function init_scn_start()
+  scene = SCN_START
+  music(1)
+end
+
+function update_scn_start()
+  if btnp(4) or btnp(5) then
+    init_scn_game()
+  end
+end
+
+function draw_scn_start()
+  cls(1)
+  print("SUPER SHMUP TURBO", 76, 50, 7)
+  print("Press any key to start", 63, 70, blinking_text_color(1,12))
+end
+:: utils.lua
+--[[pod_format="raw",created="2025-09-16 19:40:26",modified="2025-09-16 19:40:26",revision=0]]
+function blinking_text_color(col1, col2)
+  -- flip state every n-th frame
+  local n = 30
+  
+  if (ticks == nil or ticks > n) ticks = 1
+  ticks += 1
+  
+  if ticks == n then 
+    blink_state = not blink_state
+  end
+  
+  if blink_state then 
+    return col1
+  else
+    return col2
+  end
+end
+:: waveintro.lua
+--[[pod_format="raw",created="2025-09-16 19:41:47",modified="2025-09-16 22:04:45",revision=33]]
+waveintro_timeout = 0
+
+function update_waveintro()
+  if (waveintro_timeout > 0) waveintro_timeout -= 1
+end
+
+function draw_waveintro()
+  if (waveintro_timeout > 0) print("Wave "..wave, 108, 42, blinking_text_color(1, 16))
+end
+:: win.lua
+--[[pod_format="raw",created="2025-09-16 21:45:53",modified="2025-09-16 21:46:35",revision=1]]
+function init_scn_win()
+  scene = SCN_WIN
+end
+
+function update_scn_win()
+  if btnp(4) or btnp(5) then
+    init_scn_start()
+  end
+end
+
+function draw_scn_win()
+  cls(0)
+  print("YOU WON", 92, 50, 24)
+  print("Your score: "..score, 82, 70, 6)
+  print("Press any key", 82, 90, blinking_text_color(0, 1))
+end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI1LTA3LTE5IDEzOjMyOjM1Iixtb2RpZmllZD0iMjAyNS0w
+OS0xOCAxOTozNTowMiIscnVudGltZT0yMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzIxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnYW1lLmx1YSMzMCIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0id2F2ZWludHJvLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJlbmVteS5sdWEjNyIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0id2lu
+Lmx1YSMxNSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ic3RhcnQubHVhIzMiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
+b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
+ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+:: [eoc]
